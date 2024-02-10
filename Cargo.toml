@@ -1,0 +1,12 @@
+[package]
+name = "charactersheet-transformer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.33"
+image = "0.24.8"
+# pdfium-render = { version = "0.8.17" }
+pdfium-render = { git = "https://github.com/liammcdermott/pdfium-render.git" }

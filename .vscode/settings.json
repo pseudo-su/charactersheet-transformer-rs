@@ -1,0 +1,9 @@
+{
+  "rust-analyzer.debug.engine": "vadimcn.vscode-lldb",
+  "rust-analyzer.debug.engineSettings": {
+    "cppdbg": {
+      "miDebuggerPath": "${env:HOME}/.cargo/bin/rust-lldb"
+    }
+  },
+  "debug.allowBreakpointsEverywhere": true
+}
